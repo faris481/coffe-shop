@@ -1,0 +1,37 @@
+export default function StarCup(){return (<div className='min-h-screen bg-neutral-50 text-neutral-900 font-sans'>
+<div className='bg-black text-white p-8 text-center'>
+<h1 className='text-5xl font-bold tracking-widest'>STAR CUP</h1>
+<p className='mt-3 text-lg'>Coffee Shop • Riyadh</p>
+</div>
+<div className='max-w-6xl mx-auto p-6 grid md:grid-cols-3 gap-6'>
+<div className='md:col-span-2 space-y-6'>
+<section className='bg-white rounded-2xl shadow p-6'>
+<h2 className='text-2xl font-semibold mb-2'>4.7 ★ <span className='text-sm text-neutral-500'>(221 reviews)</span></h2>
+<p>SAR 1–20 • Open 24 Hours</p>
+<p className='mt-2'>نهاوند، ظهرة لبن، الرياض 13782</p>
+<p className='mt-2'>Dine-in • Drive-through • No-contact delivery</p>
+</section>
+<section className='bg-white rounded-2xl shadow p-6'>
+<h2 className='text-2xl font-semibold mb-4'>Menu</h2>
+<div className='grid sm:grid-cols-2 gap-6'>
+<div><h3 className='font-bold mb-2'>Specialty Coffee</h3><ul className='space-y-2 text-sm'><li>Hot Coffee of the Day — 5.75</li><li>Cold Coffee of the Day — 7.75</li><li>Luxury Coffee — 12</li><li>Box Coffee — 39.75</li></ul></div>
+<div><h3 className='font-bold mb-2'>Drinks</h3><ul className='space-y-2 text-sm'><li>Ice Matcha — 10.75</li><li>Ice Tea — 10.75</li><li>Ice Chocolate — 10.75</li><li>Mojito — 10.75</li></ul></div>
+<div><h3 className='font-bold mb-2'>Bakery</h3><ul className='space-y-2 text-sm'><li>Croissant — 5.75</li><li>Cookies — 6.75</li><li>Brownies — 6.75</li></ul></div>
+<div><h3 className='font-bold mb-2'>Sweet</h3><ul className='space-y-2 text-sm'><li>Boom Chocolate Cake — 14.75</li><li>Cheesecake — 10.75</li><li>Chocolate Pudding — 10.75</li></ul></div>
+</div>
+</section>
+</div>
+<div className='space-y-6'>
+<section className='bg-white rounded-2xl shadow p-6'>
+<h3 className='font-semibold text-xl mb-3'>Popular Items</h3>
+<ul className='space-y-2 text-sm'><li>Ice Black</li><li>Matcha</li><li>Cookies</li><li>Cheesecake</li></ul>
+</section>
+<section className='bg-white rounded-2xl shadow p-6'>
+<h3 className='font-semibold text-xl mb-3'>Customer Review</h3>
+<p className='text-sm'>يجنن القهوه لذيذه و التشيز لذيذه</p>
+<p className='text-xs text-neutral-500 mt-2'>— عميل قبل سنة</p>
+</section>
+</div>
+</div>
+<footer className='text-center text-sm text-neutral-500 py-8'>© 2026 Star Cup Coffee</footer>
+</div>)}
